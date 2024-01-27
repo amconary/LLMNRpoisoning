@@ -7,7 +7,7 @@ Project consists of performing a LLMNR poisoning attack, a type of man-in-the-mi
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Repsonder</b> 
+- <b>Responder</b> 
 - <b>Hashcat</b>
 
 <h2>Environments Used </h2>
