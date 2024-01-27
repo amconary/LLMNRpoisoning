@@ -43,9 +43,9 @@ We have now obtained authenticated credentials for the pcuser2 account.  <br/>
 </p>
 <p align="left">
 Mitigation/Remediation Strategies <br />
-Create a GPO to Disable LLMNR: Computer Policies > Computer Configuration > Admin Templates > Network > DNS Client > Turn off multicast name resolution. <br />
-Disable NetBIOS on the local machine: Network connections > Network adapter properties > TCP/IPv4 > Advanced > WINS > Disable NetBIOS over TCP/IP. <br />
-Having strong password complexity rules in place will also help to mitigate passwords being cracked so easily by an attacker.
+1. Create a GPO to Disable LLMNR: Computer Policies > Computer Configuration > Admin Templates > Network > DNS Client > Turn off multicast name resolution. <br />
+2. Disable NetBIOS on the local machine: Network connections > Network adapter properties > TCP/IPv4 > Advanced > WINS > Disable NetBIOS over TCP/IP. <br />
+3. Having strong password complexity rules in place will also help to mitigate passwords being cracked so easily by an attacker.
 <br />
 <br />
 </p>
